@@ -1,0 +1,18 @@
+Installation:
+You need to have a ruby interpreter installed.
+
+To run the script standalone:
+Start irb in the terminal, "irb"
+Within "irb", type: load 'cmp.ruby'
+
+Now, the functions defined in the file are available.
+
+You can now run comparisons, e.g., 
+cmp("2", "3")
+
+Considerations:
+I allowed versions to either include or not include the dot character.
+I assumed that the input format is valid (the input is not validated).
+If the input is not validated, an error would be thrown.
+
+I assumed that all numbers are properly formed and don't start with the leading zeros.
